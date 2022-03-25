@@ -1,0 +1,25 @@
+package com.projetosocial.homedelas.entities;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "cadastr_vagas")
+public class CadastroVagas implements Serializable {
+
+	private static final long  serialVersionUID = 1L;
+	
+	@ID
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int id;
+	private String nome_empresa;
+	private String nome_vaga;
+	private String linkedin_empresa;
+	private String descrição_vaga;
+	private String vaga_link;
+	
+	
+}

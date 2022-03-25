@@ -1,0 +1,5 @@
+package com.projetosocial.homedelas.entities;
+
+public class CadastroVagas {
+
+}

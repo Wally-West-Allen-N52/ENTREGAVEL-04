@@ -1,0 +1,10 @@
+package com.projetosocial.homedelas.entities;
+
+import javax.persistence.Entity;
+
+@Entity
+public class CadastroVagas {
+
+	private int id;
+	
+}

@@ -1,0 +1,5 @@
+package com.projetosocial.homedelas.repositories;
+
+public interface CadastroVagasRepository {
+
+}

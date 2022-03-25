@@ -1,0 +1,13 @@
+package com.projetosocial.homedelas;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class HomedelasApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(HomedelasApplication.class, args);
+	}
+
+}
